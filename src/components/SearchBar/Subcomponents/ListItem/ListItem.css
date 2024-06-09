@@ -1,0 +1,24 @@
+.coin-button {
+  background-color: #ffffff00;
+  display: flex;
+  align-items: center;
+  margin-bottom: .5rem;
+  width: 100%;
+  border-radius: var(--border-radius);
+  height: 1.5rem;
+  padding-left: 2.05rem
+}
+
+.add-to-favorites-button {
+  position: absolute;
+  background-color: #ffffff00;
+  margin: 0;
+  top: .15rem;
+  left: .5rem;
+  padding: 0;
+  margin: 0;
+}
+
+.add-to-favorites-button:hover {
+  background-color: var(--main-bg);
+}

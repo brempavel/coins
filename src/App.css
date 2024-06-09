@@ -1,0 +1,23 @@
+:root {
+  --main-bg: #131313;
+  --main-font: #c7c4c4;
+  --button-hover: #393939;
+  --button-focus: #494949;
+  --border-radius: .5rem;
+}
+
+body {
+  background-color: var(--main-bg);
+}
+
+button {
+  background-color: var(--main-bg);
+  color: var(--main-font);
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--button-hover);
+}

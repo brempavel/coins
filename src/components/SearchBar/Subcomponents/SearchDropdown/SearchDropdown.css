@@ -1,0 +1,124 @@
+.search-form {
+  height: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-input-wrapper {
+  border: .05rem solid #686767;
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
+  width: 15rem;
+  padding: .2rem;
+  display: flex;
+  align-items: center;
+  gap: .1rem
+}
+
+#search-input {
+  border: none;
+  background-color: var(--main-bg);
+  color: var(--main-font);
+  width: 100%;
+  height: 2rem;
+}
+
+#search-input:focus {
+  outline: none;
+}
+
+.search-input-wrapper {
+  background-color: var(--main-bg);
+}
+
+.search-input-wrapper button {
+  height: 1.8rem;
+}
+
+.search-input-wrapper button:hover {
+  background-color: var(--main-bg);
+}
+
+.search-input-wrapper i {
+  color: var(--main-font);
+  transform: rotateY(180deg);
+  padding: .2rem .2rem 0 0;
+}
+
+.search-input-wrapper i.codicon-close {
+  color: #04448e;
+}
+
+.codicon-close.codicon[class*='codicon-'] {
+  font-weight: 600;
+}
+
+.filter-options {
+  background-color: var(--main-bg);
+  display: flex;
+  height: 3rem;
+  gap: 1rem;
+  align-items: center;
+  padding: .2rem .2rem 0 .2rem;
+}
+
+.filter-options button {
+  display: flex;
+  align-items: center;
+  height: 1.5rem;
+  padding: .5rem;
+}
+
+.filter-options button.active {
+  font-weight: 600;
+  pointer-events: none;
+}
+
+.filter-options button.active:hover {
+  background-color: var(--main-bg);
+}
+
+.favorites-button {
+  gap: .5rem;
+}
+
+.favorites-button i {
+  padding-bottom: .2rem;
+}
+
+.coins-list-wrapper {
+  border: .05rem solid #686767;
+  border-top: none;
+  border-radius:  0 0 var(--border-radius) var(--border-radius);
+  width: 15.4rem;
+}
+
+.coins-list-wrapper ul {
+  background-color: #131313e9;
+  color: var(--main-font);
+  list-style-type: none;
+  margin: 0;
+  padding: 0 .2rem .2rem .2rem;
+  min-height: .2rem;
+  max-height: 20rem;
+  overflow: auto;
+  scrollbar-color: #232323 #ffffff00;
+  scrollbar-width: thin;
+  border-radius:  0 0 var(--border-radius) var(--border-radius);
+}
+
+.coins-list-wrapper ul::-webkit-scrollbar {
+  width: .2rem;
+}
+
+.coins-list-wrapper ul::-webkit-scrollbar-thumb {
+  background-color: #000000;
+}
+
+.coins-list-wrapper ul::-webkit-scrollbar-track {
+  background-color: #ffffff00;
+}
+
+.coins-list-wrapper li{
+  position: relative;
+  margin: .1rem 0;
+}
